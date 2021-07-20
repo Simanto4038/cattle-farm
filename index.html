@@ -48,7 +48,7 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item ">
-                    <a class="nav-link" href="#">Product</a>
+                    <a class="nav-link" href="#product">Product</a>
                   </li>
                   <li class="nav-item ">
                     <a class="nav-link" href="#">About Us</a>
@@ -76,9 +76,11 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
         </div>
         
-        <div class="carousel-inner p-4 w-100 m-auto  ">
+        <div class="carousel-inner p-5 w-100 m-auto  ">
           <div class="carousel-item active  ">
             <div class="row align-items-center">
             
@@ -110,7 +112,7 @@
                    </div>
             </div>
           </div>
-          <div class="carousel-item  p-5 pe-1 ps-1 pb-1">
+          <div class="carousel-item  p-3 pe-1 ps-1 pb-1">
             <div class="row align-items-center">
             
                 <div class="caption col-md-7 col-sm-7 col-12 col-lg-7 col-xl-7 pb-3 pt-2">
@@ -120,7 +122,35 @@
                     <button class="buy-now-button"> Contact Us  <i class="fas fa-arrow-right"></i></button>
                 </div>
                 <div class="item-img col-md-5 col-sm-5 col-12 col-lg-5 col-xl-5 ">
-                    <img src="img/banner202.jpg" class=" img-fluid d-block w-100" alt="...">
+                    <img src="img/cow-icon.png" class=" img-fluid d-block w-75" alt="...">
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item  p-3 pe-1 ps-1 pb-1 ">
+            <div class="row align-items-center">
+            
+                <div class="caption col-md-7 col-sm-7 col-12 col-lg-7 col-xl-7 pb-3 pt-2">
+                    <h1 class="title">Our dairy Products are 100% Natural</h1>
+                    <p>Experience the best Chees and Butter in the town.As we process 100% HALAL Dairy and maintain primium quality.</p>
+                    
+                    <button class="buy-now-button"> Contact Us  <i class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="item-img col-md-5 col-sm-5 col-12 col-lg-5 col-xl-5 ">
+                    <img src="img/milk-102.png" class=" img-fluid d-block w-100" alt="...">
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item  p-5 pe-1 ps-1 pb-1">
+            <div class="row align-items-center">
+            
+                <div class="caption col-md-7 col-sm-7 col-12 col-lg-7 col-xl-7 pb-3 pt-2">
+                    <h1 class="title">HALAL Certified Meat</h1>
+                    <p>Experience the best Meat in the town.As we process 100% HALAL meat and maintain primium quality.</p>
+                    
+                    <button class="buy-now-button"> Contact Us  <i class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="item-img col-md-5 col-sm-5 col-12 col-lg-5 col-xl-5 p-2 ">
+                    <img src="img/meat-icon-102 (1).png" class=" img-fluid d-block w-100" alt="...">
                 </div>
             </div>
           </div>
@@ -137,10 +167,10 @@
     
 </div>
 
-<div class="container pt-5 pb-4">
-    <div class="row g-4">
-      <div class=" col-12 col-lg-4 col-xl-4 col-sm-12 col-md-12">
-        <div class="p-3 catagori-1 border border bg-light d-flex align-items-center rounded-3">
+<div class="container pt-5 pb-4 " id="product">
+    <div class="row g-4 mb-2 ">
+     <div class=" col-12 col-lg-4 col-xl-4 col-sm-12 col-md-12">
+        <a href="#cow">  <div class="p-3 catagori-1 border border bg-light d-flex align-items-center rounded-3">
            <div class="col-9">
                <h2>Primium COW</h2>
            </div>
@@ -149,9 +179,10 @@
            </div>
 
         </div>
-      </div>
-      <div class=" col-12 col-lg-4 col-xl-4 col-sm-12 col-md-12">
-        <div class="p-2 pt-3 catagori-2 border bg-light  d-flex align-items-center rounded-3 ">
+      </div></a>
+
+<div class=" col-12 col-lg-4 col-xl-4 col-sm-12 col-md-12">
+    <a href="#goat"> <div class="p-2 pt-3 catagori-2 border bg-light  d-flex align-items-center rounded-3 ">
              
             <div class="col-8">
                 <h2>Primium GOAT</h2>
@@ -161,10 +192,11 @@
             </div>
  
 
-        </div>
+        </div></a>
       </div>
+           
       <div class=" col-12 col-lg-4 col-xl-4 col-sm-12 col-md-12">
-        <div class="p-3 pb-2 pt-2 catagori-3 border bg-light d-flex align-items-center rounded-3">
+        <a href="#cow"><div class="p-3 pb-2 pt-2 catagori-3 border bg-light d-flex align-items-center rounded-3">
             
             <div class="col-8">
                 <h2>Butcher Service</h2>
@@ -173,10 +205,51 @@
                 <img src="img/butcher-1.png" alt="" class="img-fluid">
             </div>
 
-        </div>
+        </div></a>
       </div>
      
     </div>
+    <div class="row g-4 mt-2 ">
+        <div class=" col-12 col-lg-4 col-xl-4 col-sm-12 col-md-12">
+           <a href="#cow">  <div class="p-3 catagori-4 border border bg-light d-flex align-items-center rounded-3">
+              <div class="col-9">
+                  <h2>Primium & Regular Meat </h2>
+              </div>
+              <div class="col-3">
+                  <img src="img/meat-icon-102 (1).png" alt="" class="img-fluid">
+              </div>
+   
+           </div>
+         </div></a>
+   
+   <div class=" col-12 col-lg-4 col-xl-4 col-sm-12 col-md-12">
+       <a href="#goat"> <div class="p-2 pt-3 catagori-5 border bg-light  d-flex align-items-center rounded-3 ">
+                
+               <div class="col-8">
+                   <h2>Pure Dairy milk</h2>
+               </div>
+               <div class="col-4 ">
+                   <img src="img/milk.png" alt="" class="img-fluid">
+               </div>
+    
+   
+           </div></a>
+         </div>
+              
+         <div class=" col-12 col-lg-4 col-xl-4 col-sm-12 col-md-12">
+           <a href="#cow"><div class="p-5 ps-1 pb-3 pt-3 catagori-6 border bg-light d-flex align-items-center justify-content-between rounded-3">
+               
+               <div class="col-8">
+                   <h2>Dairy Products</h2>
+               </div>
+               <div class="col-4 ">
+                   <img src="img/chees.png" alt="" class="img-fluid ps-3">
+               </div>
+   
+           </div></a>
+         </div>
+        
+       </div>
   </div>
 
 
@@ -191,174 +264,31 @@
 
 <main>
 
+    <section  id="cow ">
+
+                     
+                     <div class="container overflow-hidden">
+                        <div class="row gx-5">
+                          <div class="col">
+                           <div class="p-3 border bg-light"><h3 class="cow-header">PRIMIUM COW SALE FOR KURBANI</h3></div>
+                          </div>
+                          <div class="col">
+                            <div class="p-3 border bg-light"><h3 class="goat-header">PRIMIUM GOAT SALE FOR KURBANI</h3></div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                
+
+
+       
+
+    </section>
+
     <section>
-                     <h3 class="cow-header">PRIMIUM COW SALE FOR KURBANI</h3>
-        <div class="cow container gx-4 ">
-
-            <div class="cow-item shadow p-3">
-                <div class="cow-img ">
-                    <img src="img/goru-101/cow-101.png" class="img-fluid" alt="">
-
-                </div>
-                <div class="cow-detail" >
-                    <h4>Code:-G#43251</h4>
-                    <p>This is a Nepali Brid Cow </p>
-                    <p>Weight => 145 Kg (+-10 Kg)</p>
-                    <button type="button" class="btn btn-primary">Add To Cart <i class="fas fa-cart-plus"></i></button>
-
-                </div>
-            </div>
-
-
-            <div class="cow-item shadow  p-3 ">
-                <div class="cow-img pt-4 pb-1">
-                    <img src="img/goru-101/cow-102.png" class="img-fluid" alt="">
-
-                </div>
-                <div class="cow-detail" >
-                    <h4>Code:-G#43251</h4>
-                    <p>This is a Pthani-Rajesthani cross Brid Cow </p>
-                    <p>Weight => 145 Kg (+-10 Kg)</p>
-                    <button type="button" class="btn btn-primary">Add To Cart <i class="fas fa-cart-plus"></i></button>
-
-                </div>
-            </div>
-
-            <div class="cow-item shadow  p-3 ">
-                <div class="cow-img">
-                    <img src="img/goru-101/cow-103.png" class="img-fluid" alt="">
-
-                </div>
-                <div class="cow-detail" >
-                    <h4>Code:-G#43251</h4>
-                    <p>This is a Nepali Brid Cow </p>
-                    <p>Weight => 145 Kg (+-10 Kg)</p>
-                    <button type="button" class="btn btn-primary">Add To Cart <i class="fas fa-cart-plus"></i></button>
-
-                </div>
-            </div>
-            <div class="cow-item shadow  p-3 ">
-                <div class="cow-img">
-                    <img src="img/goru-101/cow-104.png" class="img-fluid" alt="">
-
-                </div>
-                <div class="cow-detail" >
-                    <h4>Code:-G#43251</h4>
-                    <p>This is a Nepali Brid Cow </p>
-                    <p>Weight => 145 Kg (+-10 Kg)</p>
-                    <button type="button" class="btn btn-primary">Add To Cart <i class="fas fa-cart-plus"></i></button>
-
-                </div>
-            </div>
-            <div class="cow-item shadow  p-3 ">
-                <div class="cow-img">
-                    <img src="img/goru-101/cow-101.png" class="img-fluid" alt="">
-
-                </div>
-                <div class="cow-detail" >
-                    <h4>Code:-G#43251</h4>
-                    <p>This is a Nepali Brid Cow </p>
-                    <p>Weight => 145 Kg (+-10 Kg)</p>
-                    <button type="button" class="btn btn-primary">Add To Cart <i class="fas fa-cart-plus"></i></button>
-
-                </div>
-            </div>
-            <div class="cow-item shadow  p-3 ">
-                <div class="cow-img">
-                    <img src="img/goru-101/cow-101.png" class="img-fluid" alt="">
-
-                </div>
-                <div class="cow-detail" >
-                    <h4>Code:-G#43251</h4>
-                    <p>This is a Nepali Brid Cow </p>
-                    <p>Weight => 145 Kg (+-10 Kg)</p>
-                    <button type="button" class="btn btn-primary">Add To Cart <i class="fas fa-cart-plus"></i></button>
-
-                </div>
-            </div>
-            <div class="cow-item shadow  p-3  ">
-                <div class="cow-img">
-                    <img src="img/goru-101/cow-101.png" class="img-fluid" alt="">
-
-                </div>
-                <div class="cow-detail" >
-                    <h4>Code:-G#43251</h4>
-                    <p>This is a Nepali Brid Cow </p>
-                    <p>Weight => 145 Kg (+-10 Kg)</p>
-                    <button type="button" class="btn btn-primary">Add To Cart <i class="fas fa-cart-plus"></i></button>
-
-                </div>
-            </div>
-            <div class="cow-item shadow  p-3 ">
-                <div class="cow-img">
-                    <img src="img/goru-101/cow-101.png" class="img-fluid" alt="">
-
-                </div>
-                <div class="cow-detail" >
-                    <h4>Code:-G#43251</h4>
-                    <p>This is a Nepali Brid Cow </p>
-                    <p>Weight => 145 Kg (+-10 Kg)</p>
-                    <button type="button" class="btn btn-primary">Add To Cart <i class="fas fa-cart-plus"></i></button>
-
-                </div>
-            </div>
-            <div class="cow-item shadow  p-3 ">
-                <div class="cow-img">
-                    <img src="img/goru-101/cow-101.png" class="img-fluid" alt="">
-
-                </div>
-                <div class="cow-detail" >
-                    <h4>Code:-G#43251</h4>
-                    <p>This is a Nepali Brid Cow </p>
-                    <p>Weight => 145 Kg (+-10 Kg)</p>
-                    <button type="button" class="btn btn-primary">Add To Cart <i class="fas fa-cart-plus"></i></button>
-
-                </div>
-            </div>
-            <div class="cow-item shadow  p-3 ">
-                <div class="cow-img">
-                    <img src="img/goru-101/cow-101.png"  class="img-fluid" alt="">
-
-                </div>
-                <div class="cow-detail" >
-                    <h4>Code:-G#43251</h4>
-                    <p>This is a Nepali Brid Cow </p>
-                    <p>Weight => 145 Kg (+-10 Kg)</p>
-                    <button type="button" class="btn btn-primary">Add To Cart <i class="fas fa-cart-plus"></i></button>
-
-                </div>
-            </div>
-            <div class="cow-item shadow p-3">
-                <div class="cow-img">
-                    <img src="img/goru-101/cow-101.png" class="img-fluid" alt="">
-
-                </div>
-                <div class="cow-detail" >
-                    <h4>Code:-G#43251</h4>
-                    <p>This is a Nepali Brid Cow </p>
-                    <p>Weight => 145 Kg (+-10 Kg)</p>
-                    <button type="button" class="btn btn-primary">Add To Cart <i class="fas fa-cart-plus"></i></button>
-
-                </div>
-            </div>
-            <div class="cow-item shadow  p-3 ">
-                <div class="cow-img">
-                    <img src="img/goru-101/cow-101.png" class="img-fluid" alt="">
-
-                </div>
-                <div class="cow-detail" >
-                    <h4>Code:-G#43251</h4>
-                    <p>This is a Nepali Brid Cow </p>
-                    <p>Weight => 145 Kg (+-10 Kg)</p>
-                    <button type="button" class="btn btn-primary">Add To Cart <i class="fas fa-cart-plus"></i></button>
-
-                </div>
-            </div>
-
-            
-            
-        </div>
-
+        
+     
     </section>
 
 </main>

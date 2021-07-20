@@ -33,6 +33,31 @@
 
 }
 
+.catagori-4{
+    background: linear-gradient(180deg, #b90e25 -0.01%, #ee7a80 99.99%);
+    
+      font-weight: 900;
+
+    color:#ffffff;
+
+}
+.catagori-5{
+    background: linear-gradient(180deg, #ade5f8 -0.01%, #6cc7eb 99.99%);
+    
+      font-weight: 900;
+
+    color:rgb(255, 255, 255);
+
+}
+
+.catagori-6{
+    background: linear-gradient(180deg, #e8eb4c -0.01%, #e6661c 99.99%);
+    
+      font-weight: 900;
+
+    color:rgb(255, 255, 255);
+
+}
 .cow{
     display: grid;
     grid-template-columns: repeat(4,25%);
@@ -47,14 +72,44 @@
 
 .cow-header{
     text-align: center;
-   color: goldenrod;
+   color: rgb(255, 255, 255);
    padding-bottom: 20px;
    padding-top: 10px;
 }
 
 
+.goat{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+}
+
+.goat-item{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
 
 
+.goat-header{
+    text-align: center;
+   color: goldenrod;
+   padding-bottom: 20px;
+   padding-top: 10px;
+}
+
+.cow-img:hover>img{
+    
+    transform: scale(1.20);
+    transition: .8s ease-in-out;
+
+}
+
+.cow-img>img{
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
 
 
 
@@ -78,6 +133,18 @@
     padding: 5px;
     text-align: center;
 }
+.goat{
+    display: grid;
+    grid-template-columns: repeat(1,100%);
+}
+
+.goat-item{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+
 
 
 }
@@ -96,6 +163,19 @@
     padding: 5px;
     text-align: center;
 }
+.goat{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+
+.goat-item{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
 
 
 }
@@ -116,5 +196,15 @@
     text-align: center;
 }
 
+.goat{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+}
+
+.goat-item{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
 
 }
